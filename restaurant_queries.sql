@@ -35,7 +35,7 @@ DROP TABLE IF EXISTS merged_restaurants;
 
 -- create table to import data
 CREATE TABLE merged_restaurants (
-	extra INT,
+-- 	extra INT,
 	inspection_no INT NOT NULL,
 	dba_name VARCHAR NOT NULL,
 	aka_name VARCHAR NOT NULL,
